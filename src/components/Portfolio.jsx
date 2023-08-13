@@ -1,5 +1,5 @@
 import React from 'react';
-import arrayDestruct from '../assets/portfolio/arrayDestruct.jpg';
+import portfolioReact from '../assets/portfolio/portfolio.jpg';
 import installNode from '../assets/portfolio/installNode.jpg';
 import navbar from '../assets/portfolio/navbar.jpg';
 import reactParallax from '../assets/portfolio/reactParallax.jpg';
@@ -10,7 +10,9 @@ const Portfolio = () => {
   const portfolios = [
     {
         id: 1,
-        src: arrayDestruct
+        src: portfolioReact,
+        href: 'https://kevinlibato.netlify.app/',
+        demo: 'https://github.com/Inmzry/react-myPortfolio',
     },{
         id: 2,
         src: installNode
@@ -30,20 +32,21 @@ const Portfolio = () => {
     }
   ]
   return (
-    <div name='portfolio' className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <section className='section' id='portfolio'>
+    <div name='portfolio' className='bg-gradient-to-r from-pink-400  via-purple-500 to-indigo-500 w-full text-white md:h-screen'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Portfolio</p>
-                <p className='py-6'>Check out some of my projects here (in progress not my real projects)</p>
+                <p className='py-6'>Check out some of my projects here (dummy-display-in-progress)</p>
             </div>
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                 {
-                    portfolios.map(({id, src}) =>(
+                    portfolios.map(({id, src, href, demo}) =>(
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/>
                             <div className='flex item-center justify-center'>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                <a href={href} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center'>Demo</a>
+                                <a href={demo} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center'>Code</a>
                             </div>
                         </div>
                     ))
@@ -51,6 +54,7 @@ const Portfolio = () => {
             </div>
         </div>
     </div>
+    </section>
   )
 }
 
