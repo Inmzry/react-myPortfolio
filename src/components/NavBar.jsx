@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { Link, } from 'react-scroll';
 import { BrowserRouter as Router } from 'react-router-dom';
@@ -7,7 +7,7 @@ const NavBar = () => {
   const [navs, setNavs] = useState(false);
   const [activeLink, setActiveLink] = useState('home'); // Initialize the active link state
   
-  const links = [
+  const links = useMemo(() =>[
     {
       id: 1,
       link: 'home',
@@ -28,7 +28,7 @@ const NavBar = () => {
       id: 5,
       link: 'contact',
     },
-  ];
+  ],[]);
 
   const navLinkStyles = (linkName) => {
     return {
