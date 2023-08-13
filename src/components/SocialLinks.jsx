@@ -52,6 +52,7 @@ const SocialLinks = () => {
             </>
         ),  
         style: 'rounded-br-md',
+        href: '',
         download: true,
     }
     
