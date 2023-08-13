@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Link, animateScroll as scroll} from 'react-scroll';
+import { Link, } from 'react-scroll';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const NavBar = () => {
@@ -65,7 +65,7 @@ const NavBar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [links]);
   return (
     <Router>
       <div className='flex justify-between items-center w-full h-20 px-4 text-white backdrop-brightness-50 bg-black/30 fixed'>
