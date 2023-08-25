@@ -5,6 +5,7 @@ import javascript from '../assets/javascript.png';
 import reactImage from '../assets/react.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
+import php from '../assets/php.png';
 
 const Experience = () => {
     const tech = [
@@ -44,7 +45,13 @@ const Experience = () => {
             title: 'GitHub',
             href: 'https://github.com/',
             style: 'shadow-gray-400'
-        },
+        },{
+            id: 7,
+            src: php,
+            title: 'php',
+            href: 'https://www.php.net/',
+            style: 'shadow-violet-300'
+        }
     ]
   return (
     <section className='section' id='experience'>

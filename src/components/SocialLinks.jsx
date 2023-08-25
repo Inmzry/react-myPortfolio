@@ -14,7 +14,7 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://linkedin.com',
+      href: 'https://github.com/Inmzry',
       style: 'rounded-tr-md',
     },
     {
@@ -51,6 +51,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
+      href: "/LIBATO, kevin-resume.pdf",
       style: 'rounded-br-md',
       download: true,
     },
