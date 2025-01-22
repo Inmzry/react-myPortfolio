@@ -1,6 +1,5 @@
 import React from 'react';
 import portfolioReact from '../assets/portfolio/portfolio.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
 import navbar from '../assets/portfolio/navbar.jpg';
 import reactParallax from '../assets/portfolio/reactParallax.jpg';
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
