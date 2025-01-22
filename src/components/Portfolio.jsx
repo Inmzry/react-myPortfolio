@@ -5,7 +5,7 @@ import navbar from '../assets/portfolio/navbar.jpg';
 import reactParallax from '../assets/portfolio/reactParallax.jpg';
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
 import reactWeather from '../assets/portfolio/reactWeather.jpg';
-import gifCapstone from '../assets/portfolio/gifCapstone.gif';
+import giffCapstone from '../assets/portfolio/gifCapstone.gif';
 
 const Portfolio = () => {
   const portfolios = [
@@ -16,7 +16,7 @@ const Portfolio = () => {
         demo: 'https://github.com/Inmzry/react-myPortfolio',
     },{
         id: 2,
-        src: gifCapstone,
+        src: giffCapstone,
         href: 'https://drive.google.com/file/d/17-wFQFzYY3fsVcorCdM5rXPPo0V0QufP/view?usp=drive_link',
         demo: 'https://github.com/Inmzry/PAHEALOTZ'
     },{
