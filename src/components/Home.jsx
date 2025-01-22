@@ -11,7 +11,7 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I'm an aspiring Web Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    I am currently a 4th-year Bachelor of Science in Information Technology student at the University of Cebu. I love to work on web applications using technologies like React.
+                    I am a Bachelor of Science in Information Technology graduate from the University of Cebu. I love working on web applications using technologies like React.
                 </p>
                 <div>
                     <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md 

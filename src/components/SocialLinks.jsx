@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md';
 
 const SocialLinks = () => {
-  const [showList, setShowList] = useState(false);
+  const [showList, setShowList] = useState(true);
   const links = [
     {
       id: 1,

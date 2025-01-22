@@ -6,6 +6,7 @@ import reactImage from '../assets/react.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
 import php from '../assets/php.png';
+import CplusLogo from '../assets/CplusLogo.png';
 
 const Experience = () => {
     const tech = [
@@ -51,6 +52,12 @@ const Experience = () => {
             title: 'php',
             href: 'https://www.php.net/',
             style: 'shadow-violet-300'
+        },{
+            id: 7,
+            src: CplusLogo,
+            title: 'C++',
+            href: 'https://isocpp.org/',
+            style: 'shadow-blue-500'
         }
     ]
   return (
