@@ -11,7 +11,7 @@ const About = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About Me</p>
             </div>
             <p className='text-xl mt-20'>
-            It falls to me to inform you that this one is in the bag! -Invoker 
+            It falls to me to inform you that this one is in the bag! -Invoker z
             </p>
             <br />
             <p className='text-xl'>
