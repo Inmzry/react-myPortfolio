@@ -1,7 +1,6 @@
 import React from 'react';
 import portfolioReact from '../assets/portfolio/portfolio.jpg';
-import installNode from '../assets/portfolio/installNode.jpg';
-import navbar from '../assets/portfolio/navbar.jpg';
+import cardrecall from '../assets/portfolio/card-recall.jpg';
 import reactParallax from '../assets/portfolio/reactParallax.jpg';
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg';
 import reactWeather from '../assets/portfolio/reactWeather.jpg';
@@ -21,7 +20,9 @@ const Portfolio = () => {
         demo: 'https://github.com/Inmzry/PAHEALOTZ'
     },{
         id: 3,
-        src: navbar
+        src: cardrecall,
+        href: 'https://cardrecall.netlify.app/',
+        demo: 'https://github.com/Inmzry/memory-card-game'
     },{
         id: 4,
         src: reactParallax
@@ -48,8 +49,8 @@ const Portfolio = () => {
                         <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                             <img src={src} alt='' className='rounded-md duration-200 hover:scale-105'/>
                             <div className='flex item-center justify-center'>
-                                <a href={href} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center'>Demo</a>
-                                <a href={demo} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center'>Code</a>
+                                <a href={href} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center' target='_blank' rel='noreferrer'>Demo</a>
+                                <a href={demo} className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-center' target='_blank' rel='noreferrer'>Code</a>
                             </div>
                         </div>
                     ))
