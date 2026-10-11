@@ -51,7 +51,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/LIBATO__kevin-resume_1.pdf",
+      href: "/LIBATO-kevin-resume_1.pdf",
       style: "rounded-br-md",
       download: true,
     },
