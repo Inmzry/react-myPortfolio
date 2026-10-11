@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { FaGithub, FaLinkedin, FaFacebook } from 'react-icons/fa';
-import { HiOutlineMail } from 'react-icons/hi';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
-import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md';
+import React, { useState } from "react";
+import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsFillPersonLinesFill } from "react-icons/bs";
+import { MdOutlineKeyboardDoubleArrowDown } from "react-icons/md";
 
 const SocialLinks = () => {
   const [showList, setShowList] = useState(true);
@@ -14,8 +14,8 @@ const SocialLinks = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: 'https://github.com/Inmzry',
-      style: 'rounded-tr-md',
+      href: "https://github.com/Inmzry",
+      style: "rounded-tr-md",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: 'https://github.com/inmzry',
+      href: "https://github.com/inmzry",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: 'mailto:kevinlibato@gmail.com',
+      href: "mailto:kevinlibato@gmail.com",
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ const SocialLinks = () => {
           Facebook <FaFacebook size={30} />
         </>
       ),
-      href: 'https://www.facebook.com/kevin.libato.3/',
+      href: "https://www.facebook.com/kevin.libato.3/",
     },
     {
       id: 5,
@@ -51,8 +51,8 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/LIBATO, kevin-resume.pdf",
-      style: 'rounded-br-md',
+      href: "/LIBATO__kevin-resume_1",
+      style: "rounded-br-md",
       download: true,
     },
   ];
